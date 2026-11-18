@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ body{
+     width: 100%;
+     font-family:Arial,sans-serif,Helvetica;
+     padding:2%;
+     margin: 2% auto;
+     color: rgb(191, 198, 204);
+     background-color: rgb(30, 30, 70);
+}
+.header{
+    display: flex;
+    gap: 10%;
+    
+}
+header h2{
+    text-shadow: 3px 1px rgb(74, 74, 96);
+}
+#nav-bar{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.name{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+  border:none;
+  background-color: gray;
+  height: 1px;
+  margin: 1rem auto;
+ 
+}
+h1,h2,h3,p:not(.footerpara,.hero-para){
+    margin: 1rem auto;
+    padding:0.5rem 0.2rem ; 
+}
+p{
+line-height: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.greeting{
+    color: rgb(88, 88, 246);
+}
+section h2{
+     text-shadow: 3px 1px rgb(56, 56, 66);
+}
+section h2:not(.greeting,.myname){
+    border:1px solid rgb(83, 83, 137);
+    border-radius: 10px;
+    display: block;
+    width:25%;
+    height:2%;
+    margin: 0px;
+    box-shadow: 1px 1px 3px whitesmoke;
+}
+#Home{
+    width: 100%;
+    height: 85vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 1%;
+    font-size:1.2rem ;
+ 
+    
+}
+img{
+width: 100%;
+height:100%;
+object-fit: contain;
+
+}
+.hero-content {
+  flex: 1;
+}
+
+.visual {
+  flex: 1;
+}
+.hero-para{
+   font-size: 1.6rem;
+    
+    line-height:1.8rem;
+    margin: 2rem auto;
+}
+#Home a{
+ 
+ border: 2px solid gray;
+ border-radius:10px;
+ padding: 1rem;
+ font-size: 1rem;
+ 
+}
+#Home a:link{
+background-color: rgb(60, 60, 142);
+
+}
+
+ul {
+  list-style-position: inside;
+}
+.skillbox{
+    display: flex;
+   justify-content: center;
+
+ }
+ .box{
+  flex: 1;
+  padding: 25px;
+  
+ }
+ .project-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+ }
+ .project{
+   margin: 5%;
+   height: 10%;
+ }
+
+ .project a,.certificate a{
+    display: block;
+    margin: 10px auto ;
+    width: 60%;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    background-color:  rgb(60, 60, 142);
+ }
+.certificate {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(60, 60, 104);
+}
+
+.certificate img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+footer{
+width: 100%;
+padding: 20px;
+margin: 10px auto;
+text-align: center;
+}
+
+@media (max-width: 768px){
+   #Home{
+    height:auto;
+    gap: 20px;
+    flex-direction: column;
+    border: none;
+    font-size: 0.5rem;
+   }
+   #Home a{
+     border: 2px solid gray;
+     border-radius:10px;
+     padding: 0.7rem;
+     font-size: 0.9rem;
+   }
+ .hero-content{
+    margin: -10% auto;
+ }
+ .hero-para{
+    font-size: 1rem;
+ }
+ img{
+    padding: 10% 5%;
+    margin: 10% auto;
+    width:100% ;
+    height: 100%;
+ }
+ section h2:not(.greeting,.myname){
+    width:50%;
+    
+}
+.skillbox{
+    display:flex;
+    flex-direction: column;
+
+}
+ .project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
