@@ -109,6 +109,9 @@ object-fit: contain;
 background-color: rgb(60, 60, 142);
 
 }
+#About,#Project,#Contact{
+  background-color: rgb(48, 48, 111);
+}
 
 ul {
   list-style-position: inside;
